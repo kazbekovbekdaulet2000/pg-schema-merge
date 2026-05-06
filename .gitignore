@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# PostgreSQL artifacts
+*.dump
+*.dmp
+*.backup
+*.sql.bak
+pgdata/
+postgres-data/
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Local scratch
+scratch/
+tmp/
+*.tmp
